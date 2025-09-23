@@ -1,6 +1,7 @@
 FROM python:3
 
 RUN apt-get -y update && apt-get -y install libxml2-dev
+RUN apt-get -y upgrade
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install robotframework
