@@ -7,6 +7,7 @@ RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install robotframework
 RUN pip install robotframework-selenium2library
 RUN pip install RESTinstance
+RUN /usr/local/bin/python -m pip install robotframework-doctestlibrary
 
 VOLUME /tests
 VOLUME /output
