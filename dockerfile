@@ -8,6 +8,7 @@ RUN pip install robotframework
 RUN pip install robotframework-selenium2library
 RUN pip install RESTinstance
 RUN /usr/local/bin/python -m pip install robotframework-doctestlibrary
+RUN pip install --force-reinstall -v "jsonpath_ng==1.7.0"
 
 VOLUME /tests
 VOLUME /output
