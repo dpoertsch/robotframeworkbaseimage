@@ -12,7 +12,14 @@ The following versions are checked for CRITICAL securitiy issues:
 
 ## Version 1.1.9
 
-no issues
+- CVE-2026-44172
+- CVE-2026-44170
+- CVE-2026-49261
+- CVE-2026-43185
+- CVE-2026-8376
+- CVE-2026-42496
+- CVE-2026-42217
+- CVE-2026-42216
 
 ## Version 1.1.8
 
