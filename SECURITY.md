@@ -11,6 +11,8 @@ The following versions are checked for CRITICAL securitiy issues:
 | 1.1.8   | :white_check_mark: |
 | 1.1.7   | :white_check_mark: |
 
+## Version 1.1.10
+
 ## Version 1.1.9
 
 - CVE-2026-44172
