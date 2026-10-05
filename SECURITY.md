@@ -6,11 +6,21 @@ The following versions are checked for CRITICAL securitiy issues:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.2.1   | :white_check_mark: |
+| 1.2.0   | :white_check_mark: |
 | 1.1.10  | :white_check_mark: |
 | 1.1.9   | :white_check_mark: |
 | 1.1.8   | :white_check_mark: |
 | 1.1.7   | :white_check_mark: |
+
+## Version 1.2.0
+
+CVE-2026-6653
+CVE-2026-60002
+CVE-2026-44172
+CVE-2026-49261
+CVE-2026-43185
+CVE-2026-42217
+CVE-2026-42216
 
 ## Version 1.1.10
 
