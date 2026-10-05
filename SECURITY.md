@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The following versions are checked for CRITICAL securitiy issues:
+The following versions are checked for CRITICAL security issues:
 
 | Version | Supported          |
 | ------- | ------------------ |
