@@ -1,14 +1,17 @@
-FROM python:3
+FROM python:3.14.10-trixie
 
-RUN apt-get -y update && apt-get -y install libxml2-dev
-RUN apt-get -y upgrade
+RUN apt-get -y update \
+    && apt-get -y upgrade \
+    && apt-get -y install libxml2-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN /usr/local/bin/python -m pip install --upgrade pip
-RUN pip install robotframework
-RUN pip install robotframework-selenium2library
-RUN pip install RESTinstance
-RUN /usr/local/bin/python -m pip install robotframework-doctestlibrary
-RUN pip install pika
+RUN python -m pip install --no-cache-dir --upgrade pip \
+    && python -m pip install --no-cache-dir \
+        robotframework \
+        robotframework-seleniumlibrary \
+        RESTinstance \
+        robotframework-doctestlibrary \
+        pika
 
 VOLUME /tests
 VOLUME /output
