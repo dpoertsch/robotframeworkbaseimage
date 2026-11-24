@@ -6,7 +6,7 @@ The following versions are checked for CRITICAL security issues:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.2.1   | :green_check_mark: Some issues are not relevant |
+| 1.2.1   | :white_check_mark: Some issues are not relevant |
 | 1.2.0   | :white_check_mark: |
 | 1.1.10  | :white_check_mark: |
 | 1.1.9   | :white_check_mark: |
